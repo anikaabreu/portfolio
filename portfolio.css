@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel");
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Cinzel";
+  background-image:url("http://static.tumblr.com/40e899ba4f1dc55a6cd46429ef0be0ac/f6tau7g/uefms91gf/tumblr_static_retro-rose-flowers-pattern-backgrounds-1024x768.jpg");
+  margin: 0;
+  padding: 0;
+}
+
+h1 { color: #563A56;
+  font-weight: bolder;
+  padding-top: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(253, 239, 228, 0.5);
+}
+
+#myname {
+  font-size: 8em;
+}
+
+.buttons{
+  color: #96858F;
+  font-size: 3.87em;
+  align-items: center;
+  display: inline-flex;
+  padding-top: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.button_styling {
+  position: absolute;
+}
+
+.bottom_button {
+  position: absolute;
+  bottom: 0;
+  height: 3.5em;
+  background-color: #563A56;
+  width: 80%;
+  margin-bottom: 4%;
+  margin-left: 10%;
+  border-radius: 50px;
+}
+
+.center-ico{
+  background-color: inherit;
+  color: #FFEEE4;
+  border: none;
+  margin-top: 5px;
+}
